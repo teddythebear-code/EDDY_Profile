@@ -21,7 +21,9 @@
             <h1>Contact Me</h1>
 
         <section class="contact_me_information">
+            <h1><b>My contact info</b></h1>
 
+        <div class="email_phone">
             <div class="email">
                 <h2><b>Email</b></h2>
                 <p><!--add email --></p>
@@ -31,6 +33,36 @@
                 <h2><b>Phone</b></h2>
                 <p>+234 916 025 5108</p>
             </div>
+
+        </div>
+
+        </section>
+
+        <section class="contact_me_massage">
+
+            <h1><b>Send massage</b></h1>
+            <form action="" method="get">
+
+            <div class="contact_me_name">
+                <label for="yourname"><b>Yourname:</b></label>
+                <input type="text" name="yourname" id="yourname" placeholder="your full name" autocomplete="on" required autofocus>
+            </div>
+
+            <div class="contact_me_phonenumbr">
+                <label for="yournumber"><b>yournumber:</b></label>
+                <input type="tel" name="yournumber" id="yournumber" placeholder="999-999-9999"  pattern="[0-9]{3}[0-9]{3}[0-9]{5}" required >
+            </div>
+
+            <div class="contact_me_massage_box">
+                <label for="massagebox"><b>massage:</b></label>
+                <textarea name="massagebox" id="massagebox" cols="30" rows="10" ></textarea>
+            </div>
+
+            <button type="submit">Send massage</button>
+
+            <button type="reset">Reset massage</button>
+
+            </form>
 
         </section>
 
