@@ -28,8 +28,16 @@ img{
 }
 a, a:active ,a:focus{
 text-decoration: none;
+font-family: var(--Link_font_family);
 }
 
+h1,h2,h3{
+    font-family: var(--header_font_family);
+
+}
+p{
+    font-family: var(--text_font_family);
+}
 
 /* ALL Mobile devices */
 
