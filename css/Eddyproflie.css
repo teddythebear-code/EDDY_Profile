@@ -29,6 +29,7 @@ img{
 a, a:active ,a:focus{
 text-decoration: none;
 font-family: var(--Link_font_family);
+color: var(--color_whitesmoke);
 }
 
 h1,h2,h3{

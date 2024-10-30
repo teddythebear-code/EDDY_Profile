@@ -4,11 +4,13 @@
 
 :root{
 /* color */
-    --color_Pale_azure:#97DFFC;
-    --color_Tropical_indigo:#858AE3;
-    --color_Lris:#613DC1;
-    --color_Indigo:#4E148C;
-    --color_Russian_violet:#2C0735;
+    --color_Pale_azure:hsl(197, 94%, 79%);
+    --color_Tropical_indigo:hsl(237, 63%, 71%);
+    --color_Lris:hsl(256, 52%, 50%);
+    --color_Indigo:hsl(269, 75%, 31%);
+    --color_Russian_violet:hsl(288, 77%, 12%);
+    --color_whitesmoke:hsl(0, 0%, 96%);
+
 
 /* font family */
     --header_font_family:"Caveat", cursive;
@@ -28,6 +30,7 @@ img{
 a, a:active ,a:focus{
     text-decoration: none;
     font-family: var(--Link_font_family);
+    color: var(--color_whitesmoke);
     }
     
     h1,h2,h3{
