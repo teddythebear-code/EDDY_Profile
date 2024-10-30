@@ -4,16 +4,26 @@
 
 :root{
 /* color */
-    --color_Pale_azure:#97DFFC;
-    --color_Tropical_indigo:#858AE3;
-    --color_Lris:#613DC1;
-    --color_Indigo:#4E148C;
-    --color_Russian_violet:#2C0735;
+    --color_Pale_azure:#97dffc;
+    --color_Tropical_indigo:#868be4;
+    --color_Lris:#613dc2;
+    --color_Indigo:#4d148a;
+    --color_Russian_violet:#2d0736;
+    --color_whitesmoke:#f5f5f5;
+    --color_Libkedin_background:#0464C6;
+    --color_Libkedin_text:#FFFFFF;
+    --color_fiverr_background:#03B229;
+    --color_fiverr_text:#F3FAF4;
+
 
 /* font family */
     --header_font_family:"Caveat", cursive;
     --text_font_family:"Bad Script", cursive;
     --Link_font_family:"Architects Daughter", cursive;
+
+/* box shadow */
+    --box_shadow: 2px 2px 5px;
+
 }
 
 /* css Reset */
@@ -29,7 +39,6 @@ img{
 a, a:active ,a:focus{
 text-decoration: none;
 font-family: var(--Link_font_family);
-color: var(--color_whitesmoke);
 }
 
 h1,h2,h3{
@@ -50,8 +59,100 @@ p{
     header{
         background-color: var(--color_Indigo);
         border-radius: 0rem 0rem 30rem 30rem;
-    }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
+        .header_proflie_image{
+            margin: 2rem 0rem 0rem 0rem;
+            img{
+                width: 300px;
+                border-radius: 50%;
+                border: solid 5px var(--color_Russian_violet);
+            }
+        }
+        .header_proflie_text{
+            h1{
+                font-size: 4rem;
+                text-align: center;
+                color: var(--color_whitesmoke);
+            }
+            p{
+                text-align: center;
+                color: var(--color_Russian_violet);
+                font-size: 1.7rem;
+            }
+        }
+    }
+    main{
+        .main_work_link{
+            display: flex;
+            justify-content: space-around;
+            gap: 1rem;
+            margin: 2rem 0rem;
+            .Libkedin{
+                padding: 0.3rem 1rem;
+                background-color:var(--color_Libkedin_background);
+                border-radius: 15px;
+                i{
+                    padding-right: 0.4rem;
+                }
+                a{
+                color: var(--color_Libkedin_text);
+                 }
+            }
+            .fiverr{
+                padding: 0.3rem 2rem;
+                background-color:var(--color_fiverr_background);
+                border-radius: 15px;
+                a{
+                    
+                color: var(--color_fiverr_text);
+                 }
+            }
+            .Libkedin:hover{
+                box-shadow: 2px 2px 5px var(--color_Libkedin_background);
+            }
+            .fiverr:hover{
+                box-shadow: var(--box_shadow) var(--color_fiverr_background);
+            }
+        }
+        .main_contact{
+            display: flex;
+            justify-content: space-between;
+            margin: 2rem;
+            gap: 1rem;
+            .contact_link{
+                padding: 0.4rem 2rem;
+                background-color: var(--color_Russian_violet);
+                border-radius: 10px;
+                border: solid var(--color_Indigo) 4px;
+                a{
+                    color: var(--color_Indigo);
+                }
+            }
+            .contact_vods{
+                padding: 0.4rem 2rem;
+                background-color: var(--color_Russian_violet);
+                border-radius: 10px;
+                border: solid var(--color_Indigo) 4px;
+                a{
+                    color: var(--color_Indigo);
+                }
+            }
+            .contact_link:hover,.contact_vods:hover{
+                transition: all;
+                transform: translateY(-10px);
+                transition-duration: 2s;
+                box-sizing: var(--box_shadow);
+                border: var(--color_Lris);
+                a{
+                    color: var(--color_Lris);
+                }
+            }
+        }
+    }
 }
 
 /* ALL iPads, Tablets */
