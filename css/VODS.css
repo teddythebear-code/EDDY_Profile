@@ -1,7 +1,17 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bad+Script&family=Caveat:wght@400..700&display=swap');
+
+
 :root{
+/* color */
     --color_Pale_azure:#97DFFC;
     --color_Tropical_indigo:#858AE3;
     --color_Lris:#613DC1;
     --color_Indigo:#4E148C;
     --color_Russian_violet:#2C0735;
+
+/* font family */
+    --header_font_family:"Caveat", cursive;
+    --text_font_family:"Bad Script", cursive;
+    --Link_font_family:"Architects Daughter", cursive;
 }
