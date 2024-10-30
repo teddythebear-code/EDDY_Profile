@@ -15,3 +15,66 @@
     --text_font_family:"Bad Script", cursive;
     --Link_font_family:"Architects Daughter", cursive;
 }
+
+/* css Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+}
+a, a:active ,a:focus{
+text-decoration: none;
+}
+
+
+/* ALL Mobile devices */
+
+@media screen and (max-width: 480px) {
+
+ body{
+background-color: rgb(255, 0, 0);
+}
+}
+
+/* ALL iPads, Tablets */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    
+    body{
+        background-color: rgb(255, 208, 0);
+    }
+    
+}
+
+/* ALL Small screens, laptops */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    body{
+        background-color: rgb(34, 255, 0);
+    }
+    
+}
+
+/* ALL Desktops, large screens */
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    
+    body{
+        background-color: rgb(0, 170, 255);
+    }
+    
+}
+
+/* ALL Extra large screens, TV */
+
+@media screen and (min-width: 1201px) {
+    
+    body{
+        background-color: rgb(183, 0, 255);
+    }
+    
+}
