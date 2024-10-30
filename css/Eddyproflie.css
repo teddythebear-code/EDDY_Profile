@@ -44,9 +44,14 @@ p{
 
 @media screen and (max-width: 480px) {
 
- body{
-background-color: rgb(255, 0, 0);
-}
+    img{
+        width: 100px;
+    }
+    header{
+        background-color: var(--color_Indigo);
+        border-radius: 0rem 0rem 30rem 30rem;
+    }
+
 }
 
 /* ALL iPads, Tablets */
