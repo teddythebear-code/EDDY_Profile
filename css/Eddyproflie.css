@@ -600,7 +600,7 @@ p{
         }
         .main_contact{
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-between;
             flex-wrap: wrap;
             margin: 2rem;
             .contact_link{
@@ -653,6 +653,7 @@ p{
 
                 p{
                     font-size: 1rem;
+                    font-weight: 800;
                     text-align: center;
                     padding: 0rem 0rem 0rem 1rem;
                 }
@@ -737,8 +738,8 @@ p{
     .box_2{
         z-index: -1;
         position: absolute;
-        left: 400px;
-        top: 20px;
+        left: 300px;
+        top: 0px;
         width: 50px;
         min-height: 50px;
         background-color: var(--color_fiverr_background);
@@ -753,7 +754,7 @@ p{
         z-index: -1;
         position: absolute;
         left: 200px;
-        top: 170px;
+        top: 100px;
         width: 200px;
         min-height: 200px;
         background-color: var(--color_Libkedin_text);
@@ -843,7 +844,7 @@ p{
         }
         .main_contact{
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-between;
             flex-wrap: wrap;
             margin: 2rem;
             .contact_link{
@@ -898,6 +899,7 @@ p{
                     font-size: 1rem;
                     text-align: center;
                     padding: 0rem 0rem 0rem 1rem;
+                    font-weight: 900;
                 }
                 .artwork_image{
                     margin: 1rem;
@@ -1037,14 +1039,14 @@ p{
         }
         .header_proflie_text{
             h1{
-                font-size: 5rem;
+                font-size: 7rem;
                 text-align: center;
                 color: var(--color_whitesmoke);
             }
             p{
                 text-align: center;
                 color: var(--color_Russian_violet);
-                font-size: 3rem;
+                font-size: 4rem;
                 font-weight: 900;
                 text-shadow: var(--box_shadow) var(--color_Russian_violet);
             }
@@ -1086,11 +1088,11 @@ p{
         }
         .main_contact{
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-between;
             flex-wrap: wrap;
             margin: 2rem;
             .contact_link{
-                margin-left: 1rem;
+                margin-left: 10rem;
                 padding: 2rem 3rem;
                 background-color: var(--color_Russian_violet);
                 border-radius: 10px;
@@ -1100,7 +1102,7 @@ p{
                 }
             }
             .contact_vods{
-                margin-right: 1rem;
+                margin-right: 10rem;
                 padding: 2rem 3rem;
                 background-color: var(--color_Russian_violet);
                 border-radius: 10px;
@@ -1138,9 +1140,10 @@ p{
             display: flex;
 
                 p{
-                    font-size: 1rem;
+                    font-size: 2rem;
                     text-align: center;
                     padding: 0rem 0rem 0rem 1rem;
+                    font-weight: bolder;
                 }
                 .artwork_image{
                     margin: 1rem;
@@ -1208,7 +1211,7 @@ p{
     .box_1{
         z-index: -1;
         position: absolute;
-        left: 10px;
+        left: 60px;
         top: 100px;
         width: 50px;
         min-height: 50px;
@@ -1223,7 +1226,7 @@ p{
     .box_2{
         z-index: -1;
         position: absolute;
-        left: 400px;
+        left: 700px;
         top: 20px;
         width: 50px;
         min-height: 50px;
@@ -1238,7 +1241,7 @@ p{
     .box_3{
         z-index: -1;
         position: absolute;
-        left: 200px;
+        left: 500px;
         top: 170px;
         width: 200px;
         min-height: 200px;

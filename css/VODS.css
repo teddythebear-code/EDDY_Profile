@@ -4,16 +4,20 @@
 
 :root{
 /* color */
-    --color_Pale_azure:#97DFFC;
-    --color_Tropical_indigo:#858AE3;
-    --color_Lris:#613DC1;
-    --color_Indigo:#4E148C;
-    --color_Russian_violet:#2C0735;
+--color_Pale_azure:#97dffc;
+--color_Tropical_indigo:#868be4;
+--color_Lris:#613dc2;
+--color_Indigo:#4d148a;
+--color_Russian_violet:#2d0736;
+--color_whitesmoke:#f5f5f5;
 
 /* font family */
     --header_font_family:"Caveat", cursive;
     --text_font_family:"Bad Script", cursive;
     --Link_font_family:"Architects Daughter", cursive;
+
+/* box shadow */
+    --box_shadow: 3px 3px 5px;
 }
 
 /* css Reset */
@@ -44,8 +48,40 @@ a, a:active ,a:focus{
 
 @media screen and (max-width: 480px) {
 
- body{
-background-color: rgb(255, 0, 0);
+ main{
+    padding: 2rem;
+    background-image: linear-gradient(var(--color_Russian_violet),var(--color_Lris));
+    background-image: url(../img/WhatsApp\ Image\ 2024-10-30\ at\ 12.36.56\ PM.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1{
+        text-align: center;
+        padding: 2rem;
+        font-size: 5rem;
+        background-image: linear-gradient(var(--color_Tropical_indigo),var(--color_whitesmoke));
+        background-clip: text;
+        color: transparent;
+    }
+    .vods_link{
+        padding: 1rem;
+        background-color: rgba(87, 2, 120, 0.263);
+        backdrop-filter: blur(10px);
+        border-radius: 1rem;
+    img{
+        width: 100%;
+        border-radius: 2rem;
+    }
+    h2{
+        text-align: center;
+        padding: 1rem;
+    }
+    }
+    p{
+        font-size: 1.3rem;
+        text-align: center; 
+        color: var(--color_whitesmoke);
+    }
 }
 }
 
@@ -53,8 +89,50 @@ background-color: rgb(255, 0, 0);
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
     
-    body{
-        background-color: rgb(255, 208, 0);
+    main{
+        padding: 2rem;
+        background-image: linear-gradient(var(--color_Russian_violet),var(--color_Lris));
+        background-image: url(../img/WhatsApp\ Image\ 2024-10-30\ at\ 12.36.56\ PM.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        h1{
+            text-align: center;
+            padding: 2rem;
+            font-size: 5rem;
+            background-image: linear-gradient(var(--color_Tropical_indigo),var(--color_whitesmoke));
+            background-clip: text;
+            color: transparent;
+        }
+        .vods_info{
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            grid-template-rows: 1fr;
+        }
+        .vods_link{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            background-color: rgba(87, 2, 120, 0.263);
+            backdrop-filter: blur(10px);
+            border-radius: 1rem;
+        img{
+            width: 100%;
+            border-radius: 2rem;
+        }
+        h2{
+            text-align: center;
+            padding: 1rem;
+        }
+        }
+        p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center; 
+            color: var(--color_whitesmoke);
+        }
     }
     
 }
@@ -63,8 +141,51 @@ background-color: rgb(255, 0, 0);
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     
-    body{
-        background-color: rgb(34, 255, 0);
+    main{
+        padding: 2rem;
+        background-image: linear-gradient(var(--color_Russian_violet),var(--color_Lris));
+        background-image: url(../img/WhatsApp\ Image\ 2024-10-30\ at\ 12.36.56\ PM.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        h1{
+            text-align: center;
+            padding: 2rem;
+            font-size: 5rem;
+            background-image: linear-gradient(var(--color_Tropical_indigo),var(--color_whitesmoke));
+            background-clip: text;
+            color: transparent;
+        }
+        .vods_info{
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            grid-template-rows: 1fr;
+        }
+        .vods_link{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            background-color: rgba(87, 2, 120, 0.263);
+            backdrop-filter: blur(10px);
+            border-radius: 1rem;
+        img{
+            width: 100%;
+            border-radius: 2rem;
+        }
+        h2{
+            text-align: center;
+            padding: 1rem;
+        }
+        }
+        p{
+            font-size: 1.4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center; 
+            color: var(--color_whitesmoke);
+        }
     }
     
 }
@@ -73,8 +194,51 @@ background-color: rgb(255, 0, 0);
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
     
-    body{
-        background-color: rgb(0, 170, 255);
+    main{
+        padding: 2rem;
+        background-image: linear-gradient(var(--color_Russian_violet),var(--color_Lris));
+        background-image: url(../img/WhatsApp\ Image\ 2024-10-30\ at\ 12.36.56\ PM.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        h1{
+            text-align: center;
+            padding: 2rem;
+            font-size: 5rem;
+            background-image: linear-gradient(var(--color_Tropical_indigo),var(--color_whitesmoke));
+            background-clip: text;
+            color: transparent;
+        }
+        .vods_info{
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            grid-template-rows: 1fr;
+        }
+        .vods_link{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            background-color: rgba(87, 2, 120, 0.263);
+            backdrop-filter: blur(10px);
+            border-radius: 1rem;
+        img{
+            width: 100%;
+            border-radius: 2rem;
+        }
+        h2{
+            text-align: center;
+            padding: 1rem;
+        }
+        }
+        p{
+            font-size: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center; 
+            color: var(--color_whitesmoke);
+        }
     }
     
 }
@@ -83,8 +247,51 @@ background-color: rgb(255, 0, 0);
 
 @media screen and (min-width: 1201px) {
     
-    body{
-        background-color: rgb(183, 0, 255);
+    main{
+        padding: 2rem;
+        background-image: linear-gradient(var(--color_Russian_violet),var(--color_Lris));
+        background-image: url(../img/WhatsApp\ Image\ 2024-10-30\ at\ 12.36.56\ PM.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        h1{
+            text-align: center;
+            padding: 2rem;
+            font-size: 5rem;
+            background-image: linear-gradient(var(--color_Tropical_indigo),var(--color_whitesmoke));
+            background-clip: text;
+            color: transparent;
+        }
+        .vods_info{
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            grid-template-rows: 1fr;
+        }
+        .vods_link{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            background-color: rgba(87, 2, 120, 0.263);
+            backdrop-filter: blur(10px);
+            border-radius: 1rem;
+        img{
+            width: 100%;
+            border-radius: 2rem;
+        }
+        h2{
+            text-align: center;
+            padding: 1rem;
+        }
+        }
+        p{
+            font-size: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center; 
+            color: var(--color_whitesmoke);
+        }
     }
     
 }
