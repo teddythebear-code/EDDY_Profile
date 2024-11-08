@@ -44,25 +44,32 @@
             <h2><b>Send massage</b></h2>
             <form action="" method="get">
 
+        <div class="phonenumbr_name_contact_me">
+
             <div class="contact_me_name">
                 <label for="yourname"><b>Yourname:</b></label>
-                <input type="text" name="yourname" id="yourname" placeholder="your full name" autocomplete="on" required autofocus>
+                <input type="text" name="yourname" id="yourname" placeholder=" your full name" autocomplete="on" required autofocus>
             </div>
 
             <div class="contact_me_phonenumbr">
                 <label for="yournumber"><b>yournumber:</b></label>
-                <input type="tel" name="yournumber" id="yournumber" placeholder="999-999-9999"  pattern="[0-9]{3}[0-9]{3}[0-9]{5}" required >
+                <input type="tel" name="yournumber" id="yournumber" placeholder=" 999-999-9999"  pattern="[0-9]{3}[0-9]{3}[0-9]{5}" required >
             </div>
 
+        </div>
+
             <div class="contact_me_massage_box">
-                <label for="massagebox"><b>massage:</b></label>
-                <textarea name="massagebox" id="massagebox" cols="30" rows="10" ></textarea>
+
+                <label for="massagebox" class="massagebox_text"></label>
+
+                <textarea class="massagebox_box" placeholder="Send a massage" name="massagebox" id="massagebox" cols="30" rows="10" ></textarea>
             </div>
+        <div class="button">
 
             <button type="submit">Send massage</button>
 
             <button type="reset">Reset massage</button>
-
+        </div>
             </form>
 
         </section>
