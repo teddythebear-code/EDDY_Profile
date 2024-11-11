@@ -82,6 +82,9 @@ a, a:active ,a:focus{
         text-align: center; 
         color: var(--color_whitesmoke);
     }
+    .nosa{
+        font-size: 1.5rem;
+    }
 }
 }
 
@@ -127,11 +130,15 @@ a, a:active ,a:focus{
         }
         }
         p{
+            font-size: 1.2rem;
             display: flex;
             justify-content: center;
             align-items: center;
             text-align: center; 
             color: var(--color_whitesmoke);
+        }
+        .nosa{
+            font-size: 1.5rem;
         }
     }
     
@@ -179,12 +186,15 @@ a, a:active ,a:focus{
         }
         }
         p{
-            font-size: 1.4rem;
+            font-size: 1.5rem;
             display: flex;
             justify-content: center;
             align-items: center;
             text-align: center; 
             color: var(--color_whitesmoke);
+        }
+        .nosa{
+            font-size: 1.7rem;
         }
     }
     
@@ -239,6 +249,9 @@ a, a:active ,a:focus{
             text-align: center; 
             color: var(--color_whitesmoke);
         }
+        .nosa{
+            font-size: 3rem;
+        }
     }
     
 }
@@ -291,6 +304,9 @@ a, a:active ,a:focus{
             align-items: center;
             text-align: center; 
             color: var(--color_whitesmoke);
+        }
+        .nosa{
+            font-size: 3rem;
         }
     }
     

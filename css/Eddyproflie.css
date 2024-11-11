@@ -123,21 +123,9 @@ p{
         }
         .main_contact{
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             flex-wrap: wrap;
-            /* margin: 2rem; */
-            .contact_link{
-                margin-left: 1rem;
-                padding: 0.3rem 1rem;
-                background-color: var(--color_Russian_violet);
-                border-radius: 10px;
-                border: solid var(--color_Indigo) 4px;
-                a{
-                    color: var(--color_Indigo);
-                }
-            }
             .contact_vods{
-                margin-right: 1rem;
                 padding: 0.3rem 1rem;
                 background-color: var(--color_Russian_violet);
                 border-radius: 10px;
@@ -146,14 +134,17 @@ p{
                     color: var(--color_Indigo);
                 }
             }
-            .contact_link:hover,.contact_vods:hover{
+            .contact_vods:hover{
+                color: var(--color_Russian_violet);
+                background-color: var(--color_Indigo);
                 transition: all;
                 transform: translateY(-5px);
                 transition-duration: 1s;
                 box-sizing: var(--box_shadow);
-                border: var(--color_Lris);
+                border:solid 4px var(--color_Russian_violet);
                 a{
-                    color: var(--color_Lris);
+                    display:block;
+                    color: var(--color_Russian_violet);
                 }
             }
         }
@@ -173,6 +164,7 @@ p{
                 p{
                     text-align: center;
                     padding: 3rem;
+                    font-weight: 700;
                 }
                 .artwork_image{
                     margin: 1rem;
@@ -318,7 +310,7 @@ p{
             p{
                 text-align: center;
                 color: var(--color_Russian_violet);
-                font-size: 1.7rem;
+                font-size: 2.5rem;
                 font-weight: 900;
                 text-shadow: var(--box_shadow) var(--color_Russian_violet);
             }
@@ -359,22 +351,10 @@ p{
         }
         .main_contact{
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             flex-wrap: wrap;
-            margin: 2rem;
-            .contact_link{
-                margin-left: 1rem;
-                padding: 1rem 2rem;
-                background-color: var(--color_Russian_violet);
-                border-radius: 10px;
-                border: solid var(--color_Indigo) 4px;
-                a{
-                    color: var(--color_Indigo);
-                }
-            }
             .contact_vods{
-                margin-right: 1rem;
-                padding: 1rem 2rem;
+                padding: 0.3rem 1rem;
                 background-color: var(--color_Russian_violet);
                 border-radius: 10px;
                 border: solid var(--color_Indigo) 4px;
@@ -382,14 +362,16 @@ p{
                     color: var(--color_Indigo);
                 }
             }
-            .contact_link:hover,.contact_vods:hover{
-                transition: all;
-                transition-duration: 1s;
-                padding: 1rem 2rem;
+            .contact_vods:hover{
+                color: var(--color_Russian_violet);
                 background-color: var(--color_Indigo);
-                box-shadow: var(--box_shadow) var(--color_Russian_violet);
-                border: solid 4px var(--color_Russian_violet);
+                transition: all;
+                transform: translateY(-5px);
+                transition-duration: 1s;
+                box-sizing: var(--box_shadow);
+                border:solid 4px var(--color_Russian_violet);
                 a{
+                    display:block;
                     color: var(--color_Russian_violet);
                 }
             }
@@ -411,6 +393,7 @@ p{
                     font-size: 2rem;
                     text-align: center;
                     padding: 3rem;
+                    font-weight: 700;
                 }
                 .artwork_image{
                     margin: 1rem;
@@ -599,22 +582,10 @@ p{
         }
         .main_contact{
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             flex-wrap: wrap;
-            margin: 2rem;
-            .contact_link{
-                margin-left: 1rem;
-                padding: 2rem 3rem;
-                background-color: var(--color_Russian_violet);
-                border-radius: 10px;
-                border: solid var(--color_Indigo) 4px;
-                a{
-                    color: var(--color_Indigo);
-                }
-            }
             .contact_vods{
-                margin-right: 1rem;
-                padding: 2rem 3rem;
+                padding: 0.3rem 1rem;
                 background-color: var(--color_Russian_violet);
                 border-radius: 10px;
                 border: solid var(--color_Indigo) 4px;
@@ -622,14 +593,16 @@ p{
                     color: var(--color_Indigo);
                 }
             }
-            .contact_link:hover,.contact_vods:hover{
-                transition: all;
-                transition-duration: 1s;
-                padding: 2rem 3rem;
+            .contact_vods:hover{
+                color: var(--color_Russian_violet);
                 background-color: var(--color_Indigo);
-                box-shadow: var(--box_shadow) var(--color_Russian_violet);
-                border: solid 4px var(--color_Russian_violet);
+                transition: all;
+                transform: translateY(-5px);
+                transition-duration: 1s;
+                box-sizing: var(--box_shadow);
+                border:solid 4px var(--color_Russian_violet);
                 a{
+                    display:block;
                     color: var(--color_Russian_violet);
                 }
             }
@@ -651,10 +624,10 @@ p{
             display: flex;
 
                 p{
-                    font-size: 1rem;
+                    font-size: 1.2rem;
                     font-weight: 800;
                     text-align: center;
-                    padding: 0rem 0rem 0rem 1rem;
+                    padding: 8rem 0rem 7rem 2rem;
                 }
                 .artwork_image{
                     margin: 1rem;
@@ -843,22 +816,10 @@ p{
         }
         .main_contact{
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             flex-wrap: wrap;
-            margin: 2rem;
-            .contact_link{
-                margin-left: 1rem;
-                padding: 2rem 3rem;
-                background-color: var(--color_Russian_violet);
-                border-radius: 10px;
-                border: solid var(--color_Indigo) 4px;
-                a{
-                    color: var(--color_Indigo);
-                }
-            }
             .contact_vods{
-                margin-right: 1rem;
-                padding: 2rem 3rem;
+                padding: 0.3rem 1rem;
                 background-color: var(--color_Russian_violet);
                 border-radius: 10px;
                 border: solid var(--color_Indigo) 4px;
@@ -866,14 +827,16 @@ p{
                     color: var(--color_Indigo);
                 }
             }
-            .contact_link:hover,.contact_vods:hover{
-                transition: all;
-                transition-duration: 1s;
-                padding: 2rem 3rem;
+            .contact_vods:hover{
+                color: var(--color_Russian_violet);
                 background-color: var(--color_Indigo);
-                box-shadow: var(--box_shadow) var(--color_Russian_violet);
-                border: solid 4px var(--color_Russian_violet);
+                transition: all;
+                transform: translateY(-5px);
+                transition-duration: 1s;
+                box-sizing: var(--box_shadow);
+                border:solid 4px var(--color_Russian_violet);
                 a{
+                    display:block;
                     color: var(--color_Russian_violet);
                 }
             }
@@ -894,12 +857,12 @@ p{
             border-radius: 30rem 0rem 0rem 30rem;
             display: flex;
 
-                p{
-                    font-size: 1rem;
-                    text-align: center;
-                    padding: 0rem 0rem 0rem 1rem;
-                    font-weight: 900;
-                }
+            p{
+                font-size: 2rem;
+                font-weight: 800;
+                text-align: center;
+                padding: 8rem 0rem 7rem 2rem;
+            }
                 .artwork_image{
                     margin: 1rem;
                     display: grid;
@@ -1087,22 +1050,10 @@ p{
         }
         .main_contact{
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             flex-wrap: wrap;
-            margin: 2rem;
-            .contact_link{
-                margin-left: 10rem;
-                padding: 2rem 3rem;
-                background-color: var(--color_Russian_violet);
-                border-radius: 10px;
-                border: solid var(--color_Indigo) 4px;
-                a{
-                    color: var(--color_Indigo);
-                }
-            }
             .contact_vods{
-                margin-right: 10rem;
-                padding: 2rem 3rem;
+                padding: 0.3rem 1rem;
                 background-color: var(--color_Russian_violet);
                 border-radius: 10px;
                 border: solid var(--color_Indigo) 4px;
@@ -1110,14 +1061,16 @@ p{
                     color: var(--color_Indigo);
                 }
             }
-            .contact_link:hover,.contact_vods:hover{
-                transition: all;
-                transition-duration: 1s;
-                padding: 2rem 3rem;
+            .contact_vods:hover{
+                color: var(--color_Russian_violet);
                 background-color: var(--color_Indigo);
-                box-shadow: var(--box_shadow) var(--color_Russian_violet);
-                border: solid 4px var(--color_Russian_violet);
+                transition: all;
+                transform: translateY(-5px);
+                transition-duration: 1s;
+                box-sizing: var(--box_shadow);
+                border:solid 4px var(--color_Russian_violet);
                 a{
+                    display:block;
                     color: var(--color_Russian_violet);
                 }
             }
@@ -1143,6 +1096,7 @@ p{
                     text-align: center;
                     padding: 0rem 0rem 0rem 1rem;
                     font-weight: bolder;
+                    padding: 8rem 0rem 7rem 2rem;
                 }
                 .artwork_image{
                     margin: 1rem;
