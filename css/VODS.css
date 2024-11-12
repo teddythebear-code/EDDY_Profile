@@ -10,6 +10,7 @@
 --color_Indigo:#4d148a;
 --color_Russian_violet:#2d0736;
 --color_whitesmoke:#f5f5f5;
+--color_smoke:#bcb9b9;
 
 /* font family */
     --header_font_family:"Caveat", cursive;
@@ -79,8 +80,9 @@ a, a:active ,a:focus{
     }
     p{
         font-size: 1.3rem;
+        font-weight: bolder;
         text-align: center; 
-        color: var(--color_whitesmoke);
+        color: var(--color_smoke);
     }
     .nosa{
         font-size: 1.5rem;
@@ -130,14 +132,17 @@ a, a:active ,a:focus{
         }
         }
         p{
+            padding: 5rem 0rem 0rem 0rem;
             font-size: 1.2rem;
             display: flex;
+            font-weight: bolder;
             justify-content: center;
             align-items: center;
             text-align: center; 
-            color: var(--color_whitesmoke);
+            color: var(--color_smoke);
         }
         .nosa{
+            padding: 0;
             font-size: 1.5rem;
         }
     }
@@ -186,14 +191,17 @@ a, a:active ,a:focus{
         }
         }
         p{
+            padding: 5rem 0 0 0;
             font-size: 1.5rem;
             display: flex;
+            font-weight: bolder;
             justify-content: center;
             align-items: center;
             text-align: center; 
-            color: var(--color_whitesmoke);
+            color: var(--color_smoke);
         }
         .nosa{
+            padding: 0;
             font-size: 1.7rem;
         }
     }
@@ -242,14 +250,17 @@ a, a:active ,a:focus{
         }
         }
         p{
+            padding: 5rem 0 0 0;
             font-size: 2rem;
             display: flex;
+            font-weight: bolder;
             justify-content: center;
             align-items: center;
             text-align: center; 
-            color: var(--color_whitesmoke);
+            color: var(--color_smoke);
         }
         .nosa{
+            padding: 2rem 0 0 0;
             font-size: 3rem;
         }
     }
@@ -298,15 +309,18 @@ a, a:active ,a:focus{
         }
         }
         p{
+            padding: 9rem 0 0 0;
             font-size: 2rem;
             display: flex;
+            font-weight: bolder;
             justify-content: center;
             align-items: center;
             text-align: center; 
-            color: var(--color_whitesmoke);
+            color: var(--color_smoke);
         }
         .nosa{
             font-size: 3rem;
+            padding: 2rem 0 0 0;
         }
     }
     

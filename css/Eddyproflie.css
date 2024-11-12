@@ -22,7 +22,7 @@
     --Link_font_family:"Architects Daughter", cursive;
 
 /* box shadow */
-    --box_shadow: 3px 3px 5px;
+    --box_shadow: 3px 3px 5px ,-3px -3px 5px #ffffff78  ;
 
 }
 
@@ -115,10 +115,10 @@ p{
                  }
             }
             .Libkedin:hover{
-                box-shadow: 2px 2px 5px var(--color_Libkedin_background);
+                box-shadow: 2px 2px 5px var(--color_Libkedin_background),-2px -2px 5px var(--color_Libkedin_background) inset;
             }
             .fiverr:hover{
-                box-shadow: var(--box_shadow) var(--color_fiverr_background);
+                box-shadow: 2px 2px 5px var(--color_fiverr_background),-2px -2px 5px var(--color_fiverr_background) inset;
             }
         }
         .main_contact{
@@ -346,7 +346,7 @@ p{
                 box-shadow: 2px 2px 5px var(--color_Libkedin_background);
             }
             .fiverr:hover{
-                box-shadow: var(--box_shadow) var(--color_fiverr_background);
+                box-shadow: 2px 2px 5px var(--color_fiverr_background),-2px -2px 5px var(--color_fiverr_background) inset; 
             }
         }
         .main_contact{
@@ -577,7 +577,7 @@ p{
                 box-shadow: 2px 2px 5px var(--color_Libkedin_background);
             }
             .fiverr:hover{
-                box-shadow: var(--box_shadow) var(--color_fiverr_background);
+                box-shadow: 2px 2px 5px var(--color_fiverr_background),-2px -2px 5px var(--color_fiverr_background) inset;
             }
         }
         .main_contact{
@@ -811,7 +811,7 @@ p{
                 box-shadow: 2px 2px 5px var(--color_Libkedin_background);
             }
             .fiverr:hover{
-                box-shadow: var(--box_shadow) var(--color_fiverr_background);
+                box-shadow: 2px 2px 5px var(--color_fiverr_background),-2px -2px 5px var(--color_fiverr_background) inset;
             }
         }
         .main_contact{
@@ -1045,7 +1045,8 @@ p{
                 box-shadow: 2px 2px 5px var(--color_Libkedin_background);
             }
             .fiverr:hover{
-                box-shadow: var(--box_shadow) var(--color_fiverr_background);
+                box-shadow: 2px 2px 5px var(--color_fiverr_background),-2px -2px 5px var(--color_fiverr_background) inset;
+
             }
         }
         .main_contact{
